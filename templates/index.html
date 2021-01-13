@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test | turbo-flask</title>
+    {{ turbo_js() }}
+    <style>
+        .turbo-progress-bar {
+            height: 5px;
+            background-color: #ffc53f;
+        }
+    </style>
+</head>
+<body>
+    hello, welcome to <b>{{page_val}}</b>
+    <br>
+    <a href="{{link}}">go to {{link}}</a>
+</body>
+</html>

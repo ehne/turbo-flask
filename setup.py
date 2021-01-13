@@ -10,7 +10,7 @@ setup(
     url="https://github.com/ehne/turbo_flask",
     packages = ['turbo_flask'],
     install_requires=[
-        
+        'Flask',
     ],
     python_requires='>=3',
     )
